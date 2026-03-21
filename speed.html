@@ -1,1 +1,81 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width initial-scale=1 minimum-scale=1.0 maximum-scale=1.0"/>
+    <button id="backToTop" title="Go to top">↑</button>
+
+    <nav>
+        <div class="logo">Hi Tech Eng Solution</div>
+        <div class="hamburger" id="mobile-menu">
+            <span></span><span></span><span></span>
+        </div>
+        <ul class="nav-links" id="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#speed">Speed</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+<head>
+<title>Copyright by Hi Tech Eng Solution Sdn Bhd</title>
+</head>
+
+<header>
+
+
+</header>
+
+<body style="width: 100%; height: 100%;">
+		<iframe width="100%" height="650px" frameborder="0" src="https://htesb.speedtestcustom.com">
+</iframe>
+  <script>
+
+        // Lightbox Logic
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+
+        function openLightbox(element) {
+            const imgSrc = element.querySelector('img').src;
+            lightboxImg.src = imgSrc;
+            lightbox.style.display = 'flex';
+        }
+
+        lightbox.onclick = function(e) {
+            if (e.target !== lightboxImg) {
+                lightbox.style.display = 'none';
+            }
+        };
+
+        // Back to Top Logic
+        const topBtn = document.getElementById("backToTop");
+        window.onscroll = function() {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                topBtn.style.display = "block";
+            } else {
+                topBtn.style.display = "none";
+            }
+        };
+        topBtn.onclick = function() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        };
+
+        // Mobile Menu Logic
+        const menu = document.getElementById('mobile-menu');
+        const navList = document.getElementById('nav-list');
+        menu.onclick = () => navList.classList.toggle('active');
+  </script>
+  
+</body>
+<footer>
+<p>
+<img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=20&center=true&vCenter=true&width=320&height=45&duration=4000&lines=' © by Hi Tech Eng Solution Sdn Bhd';+Email : admin@htesb.com;"/>
+</p>
+<!-- <p>© 2026 Hi Tech Eng Solution Sdn Bhd. All Rights Reserved.</p><p>Email: admin@htesb.com</p>        -->
+
+<!-- Start of Global Code -->
+
+<script type="text/javascript" src="https://counter.websiteout.com/js/17/5/499/0"></script>
+</footer>
+</html>
