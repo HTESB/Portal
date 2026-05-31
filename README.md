@@ -3,7 +3,7 @@ This code repository (or "repo") is designed to demonstrate the best GitHub has 
 
 The repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.
 
-# htesb.github.io
+#
 # https://www.htesb.com
 
 <!--<div><img align="center" src="https://visitor-badge.laobi.icu/badge?page_id=DesciFradoR93.DesciFradoR93" /></div>-->
