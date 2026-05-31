@@ -31,9 +31,10 @@ The repo includes an `index.html` file (so it can render a web page), two GitHub
 <h2 align="center"> 🏆 Trophies 🏆 </h2>
 
 <br/>
+
 <p align="center"> 
 <a href="https://github.com/ryo-ma/github-profile-trophy">
-<img src="https://github-profile-trophy.vercel.app/?username=akmalkamaruddin"/>
+<img src="https://github-profile-trophy-sigma-one.vercel.app/?username=akmalkamaruddin&theme=onedark"/>
 </a> 
 </p>
 
