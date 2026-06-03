@@ -65,7 +65,9 @@ The repo includes an `index.html` file (so it can render a web page), two GitHub
 <div align="center">
     <img width="390" src="https://github-readme-stats.vercel.app/api?username=akmalkamaruddin&show_icons=true&theme=dark&locale=en" alt="akmalkamaruddin" />
 
-    <img width="325" src="https://github-readme-streak-stats.herokuapp.com/?user=akmalkamaruddin&theme=dark" alt="akmalkamaruddin" />
+</div>  
+<div align="center">
+  <img width="325" src="https://github-readme-streak-stats.herokuapp.com/?user=akmalkamaruddin&theme=dark" alt="akmalkamaruddin" />
 </div>
 <hr/>
 
