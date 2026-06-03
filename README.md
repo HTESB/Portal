@@ -3,10 +3,9 @@ This code repository (or "repo") is designed to demonstrate the best GitHub has 
 
 The repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.
 
-#
+
 # https://www.htesb.com
 
-<!--<div><img align="center" src="https://visitor-badge.laobi.icu/badge?page_id=DesciFradoR93.DesciFradoR93" /></div>-->
 
 <div align="center">
 <img align="center" src="https://repository-images.githubusercontent.com/588181932/e36ec678-7984-4cdd-8e4c-a3932772ff8e">
@@ -64,8 +63,8 @@ The repo includes an `index.html` file (so it can render a web page), two GitHub
 <br>
 <br>
 <div align="center">
-    <img width="390" src="https://github-readme-stats.vercel.app/api/top-langs?username=descifrador93&show_icons=true&theme=dark&locale=en&layout=compact" alt="descifrador93" />
     <img width="390" src="https://github-readme-stats.vercel.app/api?username=akmalkamaruddin&show_icons=true&theme=dark&locale=en" alt="akmalkamaruddin" />
+
     <img width="325" src="https://github-readme-streak-stats.herokuapp.com/?user=akmalkamaruddin&theme=dark" alt="akmalkamaruddin" />
 </div>
 <hr/>
