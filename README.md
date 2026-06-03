@@ -45,7 +45,7 @@ The repo includes an `index.html` file (so it can render a web page), two GitHub
 -->
 
 <hr/>
-<h2 align="center">😎 Tect Stack 😎</h2>
+<h2 align="center">😎 Tech Stack 😎</h2>
 <br/>
 <div align="center">
     <img src="https://skillicons.dev/icons?i=bootstrap,html,css,vscode,github,git" />
