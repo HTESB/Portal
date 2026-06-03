@@ -71,10 +71,10 @@ The repo includes an `index.html` file (so it can render a web page), two GitHub
 </div>
 <hr/>
 
-<!-- 
+
 <h3 align="center">Close Friend on Github</h3>
 <img align="center" src="https://cdn.discordapp.com/attachments/1054645111834812467/1183130287236993094/image.png?ex=658736f1&is=6574c1f1&hm=f554ec05286dea564603698d76abd5612346fe9a5b0e70ad3ceae062a21cf8a5&" > 
--->
+
 
 <!--
 <br/>
