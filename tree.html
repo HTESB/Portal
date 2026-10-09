@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Folder Reader</title>
+</head>
+<body>
+
+    <!-- The input allows folder selection -->
+    <input type="file" id="folderInput" webkitdirectory directory multiple>
+    
+    <!-- This list will display the files -->
+    <ul id="fileList"></ul>
+
+    <script>
+        document.getElementById('folderInput').addEventListener('change', function(event) {
+            const fileList = document.getElementById('fileList');
+            fileList.innerHTML = ''; // Clear the list before adding new items
+
+            // Loop through all files in the selected folder
+            for (let i = 0; i < event.target.files.length; i++) {
+                const file = event.target.files[i];
+                const listItem = document.createElement('li');
+                
+                // webkitRelativePath shows the folder structure (e.g., "Folder/Subfolder/file.txt")
+                listItem.textContent = file.webkitRelativePath; 
+                fileList.appendChild(listItem);
+            }
+        });
+    </script>
+
+</body>
+</html>
+
+
+<!--
+<html>
+<!--
+<head>
+    <title>Collapsible File Tree</title>
+    <style>
+        /* Remove default list styling */
+        ul, #fileTree {
+            list-style-type: none;
+        }
+        #fileTree {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Style the clickable folder labels */
+        .folder {
+            cursor: pointer;
+            user-select: none; /* Prevents text from being highlighted when double-clicked */
+            font-weight: bold;
+        }
+
+        /* Add a triangle icon before the folder name */
+        .folder::before {
+            content: "\25B6"; /* Right-pointing triangle */
+            color: black;
+            display: inline-block;
+            margin-right: 6px;
+            font-size: 12px;
+            transition: transform 0.2s; /* Smooth rotation animation */
+        }
+
+        /* Rotate the triangle when the folder is open */
+        .folder-open::before {
+            transform: rotate(90deg);
+        }
+
+        /* Hide nested lists by default */
+        .nested {
+            display: none;
+            margin-left: 20px; 
+            border-left: 1px solid #ccc; 
+            padding-left: 10px;
+            margin-top: 5px;
+        }
+
+        /* Show the nested list when this class is applied */
+        .active {
+            display: block;
+        }
+
+        /* Style the file items */
+        .file {
+            margin-top: 5px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <ul id="fileTree">
+        <li>
+            <!-- The 'folder' class makes this clickable -->
+            <span class="folder">📁 Documents</span>
+            <!-- The 'nested' class hides this list by default -->
+            <ul class="nested">
+                <li class="file">📄 Q3_Report.pdf</li>
+                <li class="file">📄 Budget.xlsx</li>
+            </ul>
+        </li>
+        <li>
+            <span class="folder">📁 Images</span>
+            <ul class="nested">
+                <li>
+                    <span class="folder">📁 Vacation</span>
+                    <ul class="nested">
+                        <li class="file">🖼️ beach.jpg</li>
+                        <li class="file">🖼️ mountain.png</li>
+                    </ul>
+                </li>
+                <li class="file">🖼️ logo.svg</li>
+            </ul>
+        </li>
+    </ul>
+
+    <script>
+        // Find all elements with the class 'folder'
+        const folders = document.getElementsByClassName("folder");
+
+        // Loop through each folder to attach a click event listener
+        for (let i = 0; i < folders.length; i++) {
+            folders[i].addEventListener("click", function() {
+                // Find the next sibling element (which is the nested <ul>)
+                const nestedList = this.parentElement.querySelector(".nested");
+                
+                if (nestedList) {
+                    // Toggle the 'active' class on the nested <ul> to show/hide it
+                    nestedList.classList.toggle("active");
+                    
+                    // Toggle the 'folder-open' class on the clicked text to rotate the triangle
+                    this.classList.toggle("folder-open");
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>
+-->
